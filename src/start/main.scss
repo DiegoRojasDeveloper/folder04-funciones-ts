@@ -1,0 +1,62 @@
+@use '/src/html/html02-css/CSS01Colors.scss';
+@use '/src/html/html02-css/CSS03LocalStandar.scss' as local-scss;
+
+@font-face {
+  font-family: primary-font;
+  src: url('/src/html/html01-assets/assets01-fonts/font01-primary/font01AmpleSoft.otf');
+}
+
+@font-face {
+  font-family: primary-font-bold;
+  src: url('/src/html/html01-assets/assets01-fonts/font01-primary/font01AmpleSoft-Bold.otf');
+}
+
+@font-face {
+  font-family: secundary-font;
+  src: url('/src/html/html01-assets/assets01-fonts/font02-secundary/font02NuvoOT.otf');
+}
+
+:root {
+  background-color: #F4F7FE;
+  color-scheme: light dark;
+  color: rgba(70, 66, 66, 0.87);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 100%;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+  width: auto;
+}
+
+html {
+  max-width: 1600px;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: primary-font;
+}
+
+label {
+  color: var(--light-gray);
+  font-size: local-scss.$font-size-3;
+}
+
+
+h1, h2, h3 {
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+@use 'zzz-folder02-configuraciones-css/CSS01Functions.scss' as fn;
+
+$font-size-1: fn.PxToRem(4);
+$font-size-2: fn.PxToRem(8);
+$font-size-3: fn.PxToRem(12);
+$font-size-4: fn.PxToRem(16);
+$font-size-5: fn.PxToRem(20);
+$font-size-6: fn.PxToRem(24);
+$font-size-7: fn.PxToRem(28);
+$font-size-8: fn.PxToRem(32);
+$font-size-9: fn.PxToRem(36);
+$font-size-10: fn.PxToRem(40);
+
+
+
